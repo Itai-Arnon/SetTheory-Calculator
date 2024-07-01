@@ -1,6 +1,6 @@
 ## Overview
 
-This C program performs set theory operations such as union, symmetric difference, subtraction, and intersection. The program prompts the user to enter commands, which it then parses and executes using an abstract syntax tree (AST). If the syntax of the commands is incorrect, the program will render an error message.
+This C program performs set theory operations such as union, symmetric difference, subtraction, and intersection. The program prompts the user to enter commands, which it then parses, checks if its correct. If correct the commands is executed. If the syntax of the commands is incorrect, the program will render an error message.    The program utilizes an abstract syntax tree (AST). A struct that represents and embodies the entire language the parser uses
 
 ## Features
 
