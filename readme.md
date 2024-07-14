@@ -25,9 +25,9 @@ This C program performs set theory operations such as union, symmetric differenc
 
 **stop**  
 
-** Output that follows describes the value of each bit int an 128 bit array   **
-** Bits were used to reperesent  the number as since it spends significantly less memory than a standard C int array **
-**  Bit 82 means 81 in in the array  , Bit 128 means 127 in the array and so forth **
+**Output that follows describes the value of each bit int an 128 bit array**
+**Bits were used to reperesent  the number as since it spends significantly less memory than a standard C int array**
+**Bit 82 means 81 in in the array  , Bit 128 means 127 in the array and so forth**
 
 
  bit  0= 0  
