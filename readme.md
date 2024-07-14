@@ -1,6 +1,6 @@
 ## Overview
 
-This C program performs set theory operations such as union, symmetric difference, subtraction, and intersection. The program prompts the user to enter commands, which it then parses, checks if its correct. If correct the commands is executed. If the syntax of the commands is incorrect, the program will render an error message.    The program utilizes an abstract syntax tree (AST). A struct that represents and embodies the entire language the parser uses
+This C program performs set theory operations such as union, symmetric difference, subtraction, and intersection. The program prompts the user to enter commands, which it then parses, checks if its correct. If correct the commands is executed. If the syntax of the commands is incorrect, the program will render an error message.    The program utilizes an abstract syntax tree (AST). A struct that represents and embodies the entire language the parser uses. The sets in use can hold the numbers 0 to 127. They are implemented by using 16 chars data types put together, turning the first bit for example represents 0. The 10th bit turned on represents 9 and so forth.  
 
 ## Features
 
@@ -25,7 +25,9 @@ This C program performs set theory operations such as union, symmetric differenc
 
 **stop**  
 
-## **output that follows**  
+## **Output that follows describes the value of each bit int an 128 bit array **  
+## **Bits were used to reperesent  the number as since it spends significantly less memory than a standard C int array **  
+## ** Bit 82 means 81 in in the array  , Bit 128 means 127 in the array and so forth **
 
 
  bit  0= 0  
