@@ -137,9 +137,9 @@ sepBase create_sep_arr(char* str)
 	sepBase sep_res = {0};
 	char* s;
 	int seps_count = 0;
-	int comma_count = countCommas(str);
+	/*int comma_count = countCommas(str);
 	printf("%d\n", comma_count);
-
+*/
 
 	if (*str == '\0')
 	{
